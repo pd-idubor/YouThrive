@@ -1,11 +1,11 @@
+//Main server file
 const router = require('./routes');
 const dbClient = require('./db');
 const express = require('express');
 
 
 const app = express();
-const port = 5000;
-//process.env.PORT || 5000;
+const port = process.env.PORT || 3000;
 
 
 app.use(express.json());

@@ -1,3 +1,4 @@
+//Routes defined with corresponding controller actions
 const express = require('express');
 const User = require('./user');
 

@@ -1,3 +1,4 @@
+//User model
 const mongoose = require('mongoose');
 
 
@@ -13,7 +14,7 @@ const User = mongoose.model(
       required: true
     },
     age: {
-      type: String,
+      type: Number,
     },
   })
 );
